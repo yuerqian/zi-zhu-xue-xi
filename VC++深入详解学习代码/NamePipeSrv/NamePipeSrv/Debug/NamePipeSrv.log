@@ -1,0 +1,17 @@
+﻿生成启动时间为 2018/1/15 16:42:45。
+     1>项目“E:\codeText\NamePipeSrv\NamePipeSrv\NamePipeSrv.vcxproj”在节点 2 上(Build 个目标)。
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\NamePipeSrv.res" NamePipeSrv.rc 
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\NamePipeSrv\Debug\NamePipeSrv.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\NamePipeSrv\Debug\NamePipeSrv.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\NamePipeSrv\Debug\NamePipeSrv.lib" /MACHINE:X86 Debug\NamePipeSrv.res
+         Debug\MainFrm.obj
+         Debug\NamePipeSrv.obj
+         Debug\NamePipeSrvDoc.obj
+         Debug\NamePipeSrvView.obj
+         Debug\stdafx.obj
+         NamePipeSrv.vcxproj -> E:\codeText\NamePipeSrv\Debug\NamePipeSrv.exe
+     1>已完成生成项目“E:\codeText\NamePipeSrv\NamePipeSrv\NamePipeSrv.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.95

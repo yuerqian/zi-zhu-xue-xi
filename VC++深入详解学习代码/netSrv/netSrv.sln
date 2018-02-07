@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netSrv", "netSrv\netSrv.vcxproj", "{660743B0-7CA5-4F29-BFE0-67458110B699}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netClient", "netClient\netClient.vcxproj", "{115C642B-B3CB-416D-83A5-5C5D0532B90C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{660743B0-7CA5-4F29-BFE0-67458110B699}.Debug|Win32.ActiveCfg = Debug|Win32
+		{660743B0-7CA5-4F29-BFE0-67458110B699}.Debug|Win32.Build.0 = Debug|Win32
+		{660743B0-7CA5-4F29-BFE0-67458110B699}.Release|Win32.ActiveCfg = Release|Win32
+		{660743B0-7CA5-4F29-BFE0-67458110B699}.Release|Win32.Build.0 = Release|Win32
+		{115C642B-B3CB-416D-83A5-5C5D0532B90C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{115C642B-B3CB-416D-83A5-5C5D0532B90C}.Debug|Win32.Build.0 = Debug|Win32
+		{115C642B-B3CB-416D-83A5-5C5D0532B90C}.Release|Win32.ActiveCfg = Release|Win32
+		{115C642B-B3CB-416D-83A5-5C5D0532B90C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

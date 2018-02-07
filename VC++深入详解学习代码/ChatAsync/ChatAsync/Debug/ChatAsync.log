@@ -1,0 +1,27 @@
+﻿生成启动时间为 2018/1/2 17:06:34。
+     1>项目“E:\codeText\ChatAsync\ChatAsync\ChatAsync.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ChatAsync.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\vs2013\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 d:\vs2013\vc\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ChatAsync.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChatAsync.cpp ChatAsyncDlg.cpp qqq.cpp
+         qqq.cpp
+         ChatAsyncDlg.cpp
+         ChatAsync.cpp
+         正在生成代码...
+     1>e:\codetext\chatasync\chatasync\chatasyncdlg.cpp(234): warning C4715: “CChatAsyncDlg::OnSock”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\ChatAsync.res" ChatAsync.rc 
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\ChatAsync\Debug\ChatAsync.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\ChatAsync\Debug\ChatAsync.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\ChatAsync\Debug\ChatAsync.lib" /MACHINE:X86 Debug\ChatAsync.res
+         Debug\ChatAsync.obj
+         Debug\ChatAsyncDlg.obj
+         Debug\qqq.obj
+         Debug\stdafx.obj
+         ChatAsync.vcxproj -> E:\codeText\ChatAsync\Debug\ChatAsync.exe
+     1>已完成生成项目“E:\codeText\ChatAsync\ChatAsync\ChatAsync.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.33

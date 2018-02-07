@@ -1,0 +1,51 @@
+// ActiveX.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(ActiveX.tlb)，该类型库将成为
+// ActiveX.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(4F3B047B-88CC-4FBF-B57B-D6DF6DD84229), version(1.0),
+  control ]
+library ActiveXLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CActiveXCtrl 的主调度接口
+	[ 
+		uuid(3F4DA7D3-959C-486E-95AF-DA7FE3D8D2B4)	
+	]
+	dispinterface _DActiveX
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  CActiveXCtrl 的事件调度接口
+
+	[ 
+		uuid(1E70B72B-CD4E-4C04-A83C-751F38CEC807)	
+	]
+	dispinterface _DActiveXEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CActiveXCtrl 的类信息
+	[
+		uuid(D33F6026-FF75-4769-8EEB-BBC9C88FEE03)
+	]
+	coclass ActiveX
+	{
+		[default] dispinterface _DActiveX;
+		[default, source] dispinterface _DActiveXEvents;
+	};
+
+};

@@ -1,0 +1,17 @@
+﻿生成启动时间为 2018/1/19 11:48:34。
+     1>项目“E:\codeText\innerHook\innerHook\innerHook.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\innerHook.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt innerHookDlg.cpp
+         innerHookDlg.cpp
+     1>e:\codetext\innerhook\innerhook\innerhookdlg.cpp(99): warning C4715: “KeyboardProc”: 不是所有的控件路径都返回值
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\innerHook\Debug\innerHook.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\innerHook\Debug\innerHook.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\innerHook\Debug\innerHook.lib" /MACHINE:X86 Debug\innerHook.res
+         Debug\innerHook.obj
+         Debug\innerHookDlg.obj
+         Debug\stdafx.obj
+         innerHook.vcxproj -> E:\codeText\innerHook\Debug\innerHook.exe
+     1>已完成生成项目“E:\codeText\innerHook\innerHook\innerHook.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.90

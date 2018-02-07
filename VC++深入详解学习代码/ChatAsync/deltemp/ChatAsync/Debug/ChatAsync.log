@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/12/27 15:04:21。
+     1>项目“E:\codeText\ChatAsync\ChatAsync\ChatAsync.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ChatAsync.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChatAsyncDlg.cpp
+         ChatAsyncDlg.cpp
+     1>e:\codetext\chatasync\chatasync\chatasyncdlg.cpp(234): warning C4715: “CChatAsyncDlg::OnSock”: 不是所有的控件路径都返回值
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\ChatAsync\Debug\ChatAsync.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\ChatAsync\Debug\ChatAsync.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\ChatAsync\Debug\ChatAsync.lib" /MACHINE:X86 Debug\ChatAsync.res
+         Debug\ChatAsync.obj
+         Debug\ChatAsyncDlg.obj
+         Debug\qqq.obj
+         Debug\stdafx.obj
+         ChatAsync.vcxproj -> E:\codeText\ChatAsync\Debug\ChatAsync.exe
+     1>已完成生成项目“E:\codeText\ChatAsync\ChatAsync\ChatAsync.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.84

@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/9/7 18:19:37。
+     1>项目“E:\codeText\MFCApplication2\MFCApplication2\MFCApplication2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\MFCApplication2.res" MFCApplication2.rc 
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\MFCApplication2\Release\MFCApplication2.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\MFCApplication2\Release\MFCApplication2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\MFCApplication2\Release\MFCApplication2.lib" /MACHINE:X86 /SAFESEH Release\MFCApplication2.res
+         Release\mfcactivexcontroctrl1.obj
+         Release\MFCApplication2.obj
+         Release\MFCApplication2Dlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         MFCApplication2.vcxproj -> E:\codeText\MFCApplication2\Release\MFCApplication2.exe
+     1>已完成生成项目“E:\codeText\MFCApplication2\MFCApplication2\MFCApplication2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.89

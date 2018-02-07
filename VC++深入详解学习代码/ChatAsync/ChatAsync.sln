@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChatAsync", "ChatAsync\ChatAsync.vcxproj", "{DB21EE36-83E9-4FBF-B56C-7BD2534ABC6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB21EE36-83E9-4FBF-B56C-7BD2534ABC6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB21EE36-83E9-4FBF-B56C-7BD2534ABC6B}.Debug|Win32.Build.0 = Debug|Win32
+		{DB21EE36-83E9-4FBF-B56C-7BD2534ABC6B}.Release|Win32.ActiveCfg = Release|Win32
+		{DB21EE36-83E9-4FBF-B56C-7BD2534ABC6B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

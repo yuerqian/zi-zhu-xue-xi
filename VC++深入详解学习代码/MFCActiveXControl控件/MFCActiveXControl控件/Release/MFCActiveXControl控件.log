@@ -1,0 +1,46 @@
+﻿生成启动时间为 2017/9/7 17:32:50。
+     1>项目“E:\codeText\MFCActiveXControl控件\MFCActiveXControl控件\MFCActiveXControl控件.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>Midl:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\midl.exe /D NDEBUG /W1 /nologo /char signed /env win32 /h "MFCActiveXControl控件idl.h" /tlb "Release\MFCActiveXControl.tlb" /robust MFCActiveXControl.idl 
+         Processing .\MFCActiveXControl.idl
+         MFCActiveXControl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypesbase.idl
+         wtypesbase.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\MFCActiveXControl控件.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\MFCActiveXControl控件.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "MFCActiveXControl控件.cpp" "MFCActiveXControl控件Ctrl.cpp" "MFCActiveXControl控件PropPage.cpp"
+         MFCActiveXControl控件.cpp
+         MFCActiveXControl控件Ctrl.cpp
+         MFCActiveXControl控件PropPage.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\MFCActiveXControl控件.res" "MFCActiveXControl控件.rc" 
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\MFCActiveXControl控件\Release\MFCActiveXControl控件.ocx" /INCREMENTAL:NO /NOLOGO /DEF:".\MFCActiveXControl控件.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\MFCActiveXControl控件\Release\MFCActiveXControl控件.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\MFCActiveXControl控件\Release\MFCActiveXControl控件.lib" /MACHINE:X86 /SAFESEH /DLL "Release\MFCActiveXControl控件.res"
+         "Release\MFCActiveXControl控件.obj"
+         "Release\MFCActiveXControl控件Ctrl.obj"
+         "Release\MFCActiveXControl控件PropPage.obj"
+         Release\stdafx.obj
+            正在创建库 E:\codeText\MFCActiveXControl控件\Release\MFCActiveXControl控件.lib 和对象 E:\codeText\MFCActiveXControl控件\Release\MFCActiveXControl控件.exp
+         正在生成代码
+         已完成代码的生成
+         MFCActiveXControl控件.vcxproj -> E:\codeText\MFCActiveXControl控件\Release\MFCActiveXControl控件.ocx
+     1>已完成生成项目“E:\codeText\MFCActiveXControl控件\MFCActiveXControl控件\MFCActiveXControl控件.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.72

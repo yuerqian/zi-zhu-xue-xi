@@ -1,0 +1,17 @@
+﻿生成启动时间为 2018/1/29 18:22:13。
+     1>项目“E:\codeText\dlltest\dlltest\dlltest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\dlltest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dlltestDlg.cpp
+         dlltestDlg.cpp
+     1>e:\codetext\dlltest\dlltest\dlltestdlg.h(13): warning C4091: “extern ”: 没有声明变量时忽略“Point”的左侧
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\dlltest\Debug\dlltest.exe" /INCREMENTAL /NOLOGO dll.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\dlltest\Debug\dlltest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\dlltest\Debug\dlltest.lib" /MACHINE:X86 Debug\dlltest.res
+         Debug\dlltest.obj
+         Debug\dlltestDlg.obj
+         Debug\stdafx.obj
+         dlltest.vcxproj -> E:\codeText\dlltest\Debug\dlltest.exe
+     1>已完成生成项目“E:\codeText\dlltest\dlltest\dlltest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.19

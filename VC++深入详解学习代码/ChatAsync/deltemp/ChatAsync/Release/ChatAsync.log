@@ -1,0 +1,19 @@
+﻿生成启动时间为 2017/12/26 14:00:45。
+     1>项目“E:\codeText\ChatAsync\ChatAsync\ChatAsync.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ChatAsync.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChatAsync.cpp
+         ChatAsync.cpp
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\ChatAsync\Release\ChatAsync.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\ChatAsync\Release\ChatAsync.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\ChatAsync\Release\ChatAsync.lib" /MACHINE:X86 /SAFESEH Release\ChatAsync.res
+         Release\ChatAsync.obj
+         Release\ChatAsyncDlg.obj
+         Release\qqq.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         ChatAsync.vcxproj -> E:\codeText\ChatAsync\Release\ChatAsync.exe
+     1>已完成生成项目“E:\codeText\ChatAsync\ChatAsync\ChatAsync.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.79

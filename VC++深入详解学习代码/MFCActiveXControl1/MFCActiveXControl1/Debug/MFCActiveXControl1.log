@@ -1,0 +1,49 @@
+﻿生成启动时间为 2017/9/1 17:45:57。
+     1>项目“E:\codeText\MFCActiveXControl1\MFCActiveXControl1\MFCActiveXControl1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>Midl:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /h "MFCActiveXControl1idl.h" /tlb "Debug\MFCActiveXControl1.tlb" /robust MFCActiveXControl1.idl 
+         Processing .\MFCActiveXControl1.idl
+         MFCActiveXControl1.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypesbase.idl
+         wtypesbase.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MFCActiveXControl1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCActiveXControl1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MFCActiveXControl1.cpp MFCActiveXControl1Ctrl.cpp MFCActiveXControl1PropPage.cpp
+         MFCActiveXControl1PropPage.cpp
+         MFCActiveXControl1Ctrl.cpp
+         MFCActiveXControl1.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\MFCActiveXControl1.res" MFCActiveXControl1.rc 
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\MFCActiveXControl1\Debug\MFCActiveXControl1.ocx" /INCREMENTAL /NOLOGO /DEF:".\MFCActiveXControl1.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\MFCActiveXControl1\Debug\MFCActiveXControl1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\MFCActiveXControl1\Debug\MFCActiveXControl1.lib" /MACHINE:X86 /DLL Debug\MFCActiveXControl1.res
+         Debug\MFCActiveXControl1.obj
+         Debug\MFCActiveXControl1Ctrl.obj
+         Debug\MFCActiveXControl1PropPage.obj
+         Debug\stdafx.obj
+            正在创建库 E:\codeText\MFCActiveXControl1\Debug\MFCActiveXControl1.lib 和对象 E:\codeText\MFCActiveXControl1\Debug\MFCActiveXControl1.exp
+         MFCActiveXControl1.vcxproj -> E:\codeText\MFCActiveXControl1\Debug\MFCActiveXControl1.ocx
+       RegisterOutput:
+         regsvr32 /s /n /i:user "E:\codeText\MFCActiveXControl1\Debug\MFCActiveXControl1.ocx"
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(1611,5): warning MSB3073: 命令“regsvr32 /s /n /i:user "E:\codeText\MFCActiveXControl1\Debug\MFCActiveXControl1.ocx"”已退出，代码为 4。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(1620,5): error MSB8011: Failed to register output. Please try enabling Per-user Redirection or register the component from a command prompt with elevated permissions.
+     1>已完成生成项目“E:\codeText\MFCActiveXControl1\MFCActiveXControl1\MFCActiveXControl1.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.65
