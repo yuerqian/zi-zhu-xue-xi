@@ -1,0 +1,6 @@
+﻿  UIC mainwindow.ui
+  main.cpp
+  mainwindow.cpp
+  qwebengine.cpp
+E:\QTCode\designer\qwebengine.h(9): error C2504: 'QWebengineView' : base class undefined
+  Generating Code...
