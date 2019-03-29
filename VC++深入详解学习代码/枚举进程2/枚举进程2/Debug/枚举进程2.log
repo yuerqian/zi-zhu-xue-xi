@@ -1,0 +1,15 @@
+﻿Build started 2018/5/2 16:59:32.
+     1>Project "E:\codeText\枚举进程2\枚举进程2\枚举进程2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\枚举进程2.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "枚举进程2.cpp"
+         枚举进程2.cpp
+     1>e:\codetext\枚举进程2\枚举进程2\枚举进程2.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\枚举进程2\Debug\枚举进程2.exe" /INCREMENTAL /NOLOGO psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\codeText\枚举进程2\Debug\枚举进程2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\枚举进程2\Debug\枚举进程2.lib" /MACHINE:X86 Debug\stdafx.obj
+         "Debug\枚举进程2.obj"
+         枚举进程2.vcxproj -> E:\codeText\枚举进程2\Debug\枚举进程2.exe
+     1>Done Building Project "E:\codeText\枚举进程2\枚举进程2\枚举进程2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.02

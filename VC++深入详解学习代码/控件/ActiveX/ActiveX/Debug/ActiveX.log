@@ -1,0 +1,64 @@
+﻿生成启动时间为 2017/9/4 15:14:38。
+     1>项目“E:\codeText\ActiveX\ActiveX\ActiveX.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\ActiveX.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\ActiveX.unsuccessfulbuild”执行 Touch 任务。
+       Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /h "ActiveXidl.h" /tlb "Debug\ActiveX.tlb" /robust ActiveX.idl 
+         Processing .\ActiveX.idl
+         ActiveX.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ActiveX.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ActiveX.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ActiveX.cpp ActiveXCtrl.cpp ActiveXPropPage.cpp
+         ActiveXPropPage.cpp
+         ActiveXCtrl.cpp
+         ActiveX.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\ActiveX.res" ActiveX.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ActiveX.ocx.embed.manifest.res" Debug\ActiveX_manifest.rc 
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\ActiveX\Debug\ActiveX.ocx" /INCREMENTAL /NOLOGO /DEF:".\ActiveX.def" /MANIFEST /ManifestFile:"Debug\ActiveX.ocx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\codeText\ActiveX\Debug\ActiveX.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\ActiveX\Debug\ActiveX.lib" /MACHINE:X86 /DLL Debug\ActiveX.res
+         Debug\ActiveX.ocx.embed.manifest.res
+         Debug\ActiveX.obj
+         Debug\ActiveXCtrl.obj
+         Debug\ActiveXPropPage.obj
+         Debug\stdafx.obj
+            正在创建库 E:\codeText\ActiveX\Debug\ActiveX.lib 和对象 E:\codeText\ActiveX\Debug\ActiveX.exp
+       Manifest:
+         正在删除文件“Debug\ActiveX.ocx.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ActiveX.ocx.embed.manifest" /manifest Debug\ActiveX.ocx.intermediate.manifest D:\vs2010\VC\Include\Manifest\dpiaware.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ActiveX.ocx.embed.manifest.res" Debug\ActiveX_manifest.rc 
+       LinkEmbedManifest:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\ActiveX\Debug\ActiveX.ocx" /INCREMENTAL /NOLOGO /DEF:".\ActiveX.def" /MANIFEST /ManifestFile:"Debug\ActiveX.ocx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\codeText\ActiveX\Debug\ActiveX.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\ActiveX\Debug\ActiveX.lib" /MACHINE:X86 /DLL Debug\ActiveX.res
+         Debug\ActiveX.ocx.embed.manifest.res
+         Debug\ActiveX.obj
+         Debug\ActiveXCtrl.obj
+         Debug\ActiveXPropPage.obj
+         Debug\stdafx.obj
+         ActiveX.vcxproj -> E:\codeText\ActiveX\Debug\ActiveX.ocx
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ActiveX.unsuccessfulbuild”。
+         正在对“Debug\ActiveX.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\codeText\ActiveX\ActiveX\ActiveX.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.76

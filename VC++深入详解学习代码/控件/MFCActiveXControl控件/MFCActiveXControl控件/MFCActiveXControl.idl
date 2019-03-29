@@ -1,0 +1,69 @@
+// MFCActiveXControl.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(MFCActiveXControl.tlb)，该类型库将成为
+// MFCActiveXControl控件.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(23D7284D-B51D-4A24-A7EF-20C7B3CFACA3), version(1.0),
+  control ]
+library MFCActiveXControl控件Lib
+{
+	importlib(STDOLE_TLB);
+
+	//  CMFCActiveXControl控件Ctrl 的主调度接口
+	[ 
+		uuid(76028768-B3C4-4406-BB5F-94B7C41367FB)	
+	]
+	dispinterface _DMFCActiveXControl控件
+	{
+		properties:
+			[id(DISPID_BACKCOLOR), bindable, requestedit] OLE_COLOR BackColor;
+			[id(DISPID_FORECOLOR), bindable, requestedit] OLE_COLOR ForeColor;
+			[id(1), helpstring("zidingyi")] CHAR custom;
+			[id(7)] SHORT Interal;
+			[id(9)] BSTR aaa;
+			/*[id(5)] BSTR myProperty;*/
+	methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(DISPID_DOCLICK)] void DoClick();
+			[id(2), helpstring("testMethod")] void MyMethod(BSTR msg);
+			[id(3), propget] VARIANT_BOOL myProperty(VARIANT_BOOL mproperty);
+			[id(3), propput] void myProperty(VARIANT_BOOL mproperty, VARIANT_BOOL newVal);
+			[id(4), propget] VARIANT_BOOL myproperty2(VARIANT_BOOL msg2);
+			[id(4), propput] void myproperty2(VARIANT_BOOL msg2, VARIANT_BOOL newVal);
+			[id(6), propget] BSTR m1(BSTR msg);
+			[id(6), propput] void m1(BSTR msg, BSTR newVal);
+			[id(8)] void hallo();
+	};
+
+	//  CMFCActiveXControl控件Ctrl 的事件调度接口
+
+	[ 
+		uuid(BAD78B2F-154B-433F-8C01-604636F61E96)	
+	]
+	dispinterface _DMFCActiveXControl控件Events
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+			[id(DISPID_CLICK)] void Click();
+			[id(1)] void Myevent();
+			[id(2)] void MyEvent2(BSTR msg);
+	};
+
+	//  CMFCActiveXControl控件Ctrl 的类信息
+	[
+		uuid(5D7FE87E-11DA-4E62-8B9C-650A4ED90FDA)
+	]
+	coclass MFCActiveXControl控件
+	{
+		[default] dispinterface _DMFCActiveXControl控件;
+		[default, source] dispinterface _DMFCActiveXControl控件Events;
+	};
+
+};

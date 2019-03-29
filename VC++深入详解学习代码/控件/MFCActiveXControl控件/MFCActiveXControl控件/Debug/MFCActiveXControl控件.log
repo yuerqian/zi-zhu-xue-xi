@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/11/8 14:23:40。
+     1>项目“E:\codeText\MFCActiveXControl控件\MFCActiveXControl控件\MFCActiveXControl控件.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCActiveXControl控件.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "MFCActiveXControl控件Ctrl.cpp"
+         MFCActiveXControl控件Ctrl.cpp
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\MFCActiveXControl控件\Debug\MFCActiveXControl控件.ocx" /INCREMENTAL /NOLOGO /DEF:".\MFCActiveXControl控件.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\MFCActiveXControl控件\Debug\MFCActiveXControl控件.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\MFCActiveXControl控件\Debug\MFCActiveXControl控件.lib" /MACHINE:X86 /DLL "Debug\MFCActiveXControl控件.res"
+         "Debug\MFCActiveXControl控件.obj"
+         "Debug\MFCActiveXControl控件Ctrl.obj"
+         "Debug\MFCActiveXControl控件PropPage.obj"
+         Debug\stdafx.obj
+         MFCActiveXControl控件.vcxproj -> E:\codeText\MFCActiveXControl控件\Debug\MFCActiveXControl控件.ocx
+     1>已完成生成项目“E:\codeText\MFCActiveXControl控件\MFCActiveXControl控件\MFCActiveXControl控件.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.90

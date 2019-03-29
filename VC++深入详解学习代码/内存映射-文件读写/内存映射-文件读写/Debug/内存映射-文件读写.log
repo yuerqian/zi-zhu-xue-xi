@@ -1,0 +1,16 @@
+﻿Build started 2018/4/23 17:46:35.
+     1>Project "E:\codeText\内存映射-文件读写\内存映射-文件读写\内存映射-文件读写.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\内存映射-文件读写.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "内存映射-文件读写Dlg.cpp"
+         内存映射-文件读写Dlg.cpp
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\内存映射-文件读写\Debug\内存映射-文件读写.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\内存映射-文件读写\Debug\内存映射-文件读写.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\内存映射-文件读写\Debug\内存映射-文件读写.lib" /MACHINE:X86 "Debug\内存映射-文件读写.res"
+         Debug\stdafx.obj
+         "Debug\内存映射-文件读写.obj"
+         "Debug\内存映射-文件读写Dlg.obj"
+         内存映射-文件读写.vcxproj -> E:\codeText\内存映射-文件读写\Debug\内存映射-文件读写.exe
+     1>Done Building Project "E:\codeText\内存映射-文件读写\内存映射-文件读写\内存映射-文件读写.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.75

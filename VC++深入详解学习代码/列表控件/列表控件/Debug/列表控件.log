@@ -1,0 +1,15 @@
+﻿Build started 2018/5/15 18:04:46.
+     1>Project "E:\codeText\列表控件\列表控件\列表控件.vcxproj" on node 2 (Build target(s)).
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\列表控件.res" "列表控件.rc" 
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\codeText\列表控件\Debug\列表控件.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\codeText\列表控件\Debug\列表控件.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\codeText\列表控件\Debug\列表控件.lib" /MACHINE:X86 "Debug\列表控件.res"
+         Debug\stdafx.obj
+         "Debug\列表控件.obj"
+         "Debug\列表控件Dlg.obj"
+         列表控件.vcxproj -> E:\codeText\列表控件\Debug\列表控件.exe
+     1>Done Building Project "E:\codeText\列表控件\列表控件\列表控件.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.29
